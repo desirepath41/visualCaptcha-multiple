@@ -36,53 +36,81 @@
         <![endif]-->
     </head>
     <body>
-        <div id="wrap">
-            <div class="container">
-                <div class="row"> 
-                    <a href="/" target="_blank" id="logo"><img src="img/logo.png" alt="visualCaptcha"></a>
-                    <div class="pre-captcha-wrapper">
-                        <div class="captcha-wrapper">
-                            <h1>Fill in the form and submit it</h1>
-                            <form name="frm-sample" id="frm-sample" action="/try" method="post">
-                                <input type="text" class="form-control" placeholder="Name">
-                                <div id="status-message"></div>
-                                <div id="sample-captcha"></div>
-                                <a id="check-is-filled">Check if visualCaptcha is filled</a>
-                                <button type="submit" name="submit-bt" class="submit">Submit form</button>
-                            </form>
-                        </div>
-                    </div> 
-                    <div class="col-xs-12 links">
-                        <p class="txt-center">
-                            <a href="/" target="_blank"><b>visualCaptcha</b></a> by <a href="http://emotionloop.com/" target="_blank"><b>emotionLoop</b></a>
-                            <br />
-                            View other demos:
-                            <a href="http://ruby.demo.visualcaptcha.net/"><strong>Ruby</strong></a> |
-                            <a href="http://node.demo.visualcaptcha.net/"><strong>Node.js</strong></a> |
-                            <a href="http://meteor.demo.visualcaptcha.net/"><strong>Meteor</strong></a>
-                            <br />
-                            You can get it at <a href="https://github.com/emotionLoop/visualCaptcha" target="_blank"><b>GitHub</b></a>
-                        </p>
-                    </div>
+      <div id="wrap">
+        <div class="container">
+          <a href="/" target="_blank" id="logo"><img src="img/logo.png" alt="visualCaptcha"></a>
+          <br />
+
+          <div class="row">
+            <!-- Form one -->
+            <div class="col-lg-6">
+              <div class="pre-captcha-wrapper">
+                <div class="captcha-wrapper">
+                  <h1>Fill in the form and submit it</h1>
+
+                  <form name="frm-one" id="frm-sample" action="/try" method="post">
+                    <input class="form-control" type="text" placeholder="Name" value="" />
+
+                    <div class="captcha-status"></div>
+                    <div data-captcha data-namespace="one"></div>
+
+                    <a id="check-is-filled" class="check-captcha">Check if visualCaptcha is filled</a>
+                    <button type="submit" name="submit-bt" class="submit">Submit form</button>
+                  </form>
                 </div>
+              </div>
             </div>
+
+            <!-- Form two -->
+            <div class="col-lg-6">
+              <div class="pre-captcha-wrapper">
+                <div class="captcha-wrapper">
+                  <h1>Fill in the form and submit it</h1>
+
+                  <form name="frm-two" id="frm-sample" action="/try" method="post">
+                    <input class="form-control" type="text" placeholder="Name" value="" />
+
+                    <div class="captcha-status"></div>
+                    <div data-captcha data-namespace="two"></div>
+
+                    <a id="check-is-filled" class="check-captcha">Check if visualCaptcha is filled</a>
+                    <button type="submit" name="submit-bt" class="submit">Submit form</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <!-- Bottom links -->
+            <div class="col-xs-12 links">
+              <p class="txt-center">
+                <br />
+                <a href="/" target="_blank"><b>visualCaptcha</b></a> by <a href="http://emotionloop.com/" target="_blank"><b>emotionLoop</b></a>
+                <br />
+                View other demos:
+                <a href="http://node.demo.visualcaptcha.net/"><strong>Node.js</strong></a> |
+                <a href="http://ruby.demo.visualcaptcha.net/"><strong>Ruby</strong></a> |
+                <a href="http://meteor.demo.visualcaptcha.net/"><strong>Meteor</strong></a>
+                <br />
+                You can get it at <a href="https://github.com/emotionLoop/visualCaptcha" target="_blank"><b>GitHub</b></a>
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/visualcaptcha.jquery.js"></script>
-        <script src="/js/main.js"></script>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/visualcaptcha.jquery.js"></script>
+      <script src="/js/main.js"></script>
 
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-43214420-4', 'visualcaptcha.net');
-		ga('send', 'pageview');
-
-	</script>
-
+        ga('create', 'UA-43214420-4', 'visualcaptcha.net');
+        ga('send', 'pageview');
+      </script>
     </body>
 </html>
 
