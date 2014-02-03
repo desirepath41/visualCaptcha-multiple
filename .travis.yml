@@ -7,7 +7,7 @@ branches:
     - master
 env:
   global:
-    - secure: "KRBDUp2mqR7y12nSUzxaExownlISzSR0O5F1AjckB+G2Yfvox0lbZMBaYKqp/YasuHM8LE7Fcm9HsnUDzZcSYI5GSfMMMCF4QdqbiQ0Y4UVpKAtNhU8BDZltmScommvjK11F9HaGck3+QodJNGoDj+lNDmhgFRHHtt5OY8QFDKU="
+    - secure: "EdtuuYc6fmkvQsxtzs5qcjS5mzkxso9OVjNAtUnXBdGQg/FximxU4Xgrb1ouyMc+NAUSP0OmsHugFcrbwq0+1OIzOkDPa8setpyUQ0erIo4plT7L8WRNKK4r0xWeA1YTVpeug8IfUcZbj5vwhRnV05GH+z1nITpSBPUPJR5eEcs="
     - "REPOSITORY=visualcaptcha-multiple"
 before_script:
   - composer install

@@ -1,7 +1,9 @@
 visualCaptcha-multiple [![Build Status](https://travis-ci.org/emotionLoop/visualCaptcha-multiple.png?branch=master)](https://travis-ci.org/emotionLoop/visualCaptcha-multiple)
 ==================
 
-PHP sample for visualCaptcha. [You can also see it live](http://demo.visualcaptcha.net).
+PHP sample for visualCaptcha with multiple captchas. [You can also see it live](http://multiple.demo.visualcaptcha.net).
+
+This is exactly the same as the [PHP Demo](https://github.com/emotionLoop/visualCaptcha-PHP), just with a different HTML to show you multiple captchas work, as long as each has one form only.
 
 A demo/sample PHP app that uses the [visualcaptcha composer/packagist package](https://github.com/emotionLoop/visualCaptcha-packagist) and the [visualcaptcha jQuery plugin bower package](https://github.com/emotionLoop/visualCaptcha-frontend-jquery), as a proof-of-concept for how to integrate it with your PHP project.
 
