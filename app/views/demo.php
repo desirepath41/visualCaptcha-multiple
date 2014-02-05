@@ -58,7 +58,7 @@
                     <div class="captcha-wrapper multiple">
                         <h1>Fill in the form and submit it</h1>
 
-                        <form name="frm-two" class="frm-sample" action="/try" method="post">
+                        <form name="frm-two" class="frm-sample" action="try" method="post">
                             <input class="form-control" type="text" placeholder="Name" value="" />
 
                             <div class="captcha-status"></div>
