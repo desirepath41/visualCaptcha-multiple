@@ -47,9 +47,8 @@
 
         // Load captcha on elements with data-captcha attribute
         elements = $( '[data-captcha]' ).visualCaptcha({
-            imgPath: '/img/',
+            imgPath: 'img/',
             captcha: {
-                url: window.location.origin,
                 numberOfImages: 4
             }
         } );
