@@ -1,5 +1,8 @@
-visualCaptcha-multiple [![Build Status](https://travis-ci.org/emotionLoop/visualCaptcha-multiple.png?branch=master)](https://travis-ci.org/emotionLoop/visualCaptcha-multiple)
-==================
+[![Build Status](https://travis-ci.org/emotionLoop/visualCaptcha-multiple.svg?branch=master)](https://travis-ci.org/emotionLoop/visualCaptcha-multiple)
+[![Codacy](https://www.codacy.com/project/badge/36dcff32c07c42a985d9aa5be043f967)](https://www.codacy.com/app/bruno-bernardino/visualCaptcha-multiple)
+[![Code Climate](https://codeclimate.com/github/emotionLoop/visualCaptcha-multiple/badges/gpa.svg)](https://codeclimate.com/github/emotionLoop/visualCaptcha-multiple)
+
+# visualCaptcha-multiple
 
 PHP sample for visualCaptcha with multiple captchas. [You can also see it live](http://multiple.demo.visualcaptcha.net).
 
