@@ -4,7 +4,7 @@
 
 # visualCaptcha-multiple
 
-PHP sample for visualCaptcha with multiple captchas. [You can also see it live](http://multiple.demo.visualcaptcha.net).
+PHP sample for visualCaptcha with multiple captchas.
 
 This is exactly the same as the [PHP Demo](https://github.com/emotionLoop/visualCaptcha-PHP), just with a different HTML to show you multiple captchas work, as long as **each has one form only**.
 
