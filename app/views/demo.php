@@ -77,7 +77,7 @@
                         <br />
                         View other demos:
                         <br />
-                        <a href="http://demo.visualcaptcha.net/"><strong>PHP</strong></a> |
+                        <a href="https://github.com/emotionLoop/visualCaptcha-php"><strong>PHP</strong></a> |
                         <a href="https://github.com/emotionLoop/visualCaptcha-node"><strong>Node.js</strong></a> |
                         <a href="https://github.com/emotionLoop/visualCaptcha-django"><strong>Django</strong></a> |
                         <a href="https://github.com/emotionLoop/visualCaptcha-ruby"><strong>Ruby</strong></a>
